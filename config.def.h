@@ -229,6 +229,7 @@ static Shortcut shortcuts[] = {
 	{ MODKEY,               XK_j,           kscrolldown,    {.i =  7} },
 	{ MODKEY,               XK_u,           kscrollup,      {.i = -1} },
 	{ MODKEY,               XK_d,           kscrolldown,    {.i = -1} },
+	{ TERMMOD,              XK_Escape,      keyboard_select,{.i =  0} },
 };
 
 /*
